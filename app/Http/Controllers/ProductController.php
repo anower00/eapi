@@ -18,7 +18,6 @@ class ProductController extends Controller
     {
         return ProductCollection::collection(Product::paginate(10));
     }
-
     /**
      * Show the form for creating a new resource.
      *
